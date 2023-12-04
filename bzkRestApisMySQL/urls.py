@@ -1,0 +1,7 @@
+
+from django.urls import include, re_path
+
+urlpatterns = [ 
+    re_path(r'^', include('tutorials.urls')),
+    re_path(r'^', include('mangas.urls')),
+]
